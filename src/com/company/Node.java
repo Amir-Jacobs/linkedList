@@ -24,4 +24,8 @@ public class Node implements Cloneable {
     public int indexOf(String value, int index) {
         return this.value.equals(value) ? index : this.next != null ? this.next.indexOf(value, (index + 1)) : -1;
     }
+
+    public int size(int i) {
+        return this.next != null ? this.next.size(++i) : i;
+    }
 }

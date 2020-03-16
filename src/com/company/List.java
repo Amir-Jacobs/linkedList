@@ -59,6 +59,13 @@ public class List {
         return -1;
     }
 
+    // size
+    public int size() {
+        if (this.first == null) return 0;
+
+        return this.first.size(1);
+    }
+
     // toString
     @Override
     public String toString() {

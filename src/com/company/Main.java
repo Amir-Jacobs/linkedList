@@ -7,10 +7,13 @@ public class Main {
 
 //        list.addFirst("value");
 //        list.addLast("value");
-//        list.indexOf("value");
-//        list.contains("value");
+
 //        list.deleteFirst();
 //        list.deleteLast();
+
+//        list.contains("value");
+//        list.indexOf("value");
 //        list.toString();
+//        list.size();
     }
 }
